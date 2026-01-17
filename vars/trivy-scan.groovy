@@ -1,3 +1,4 @@
-def call(){
-  sh "trivy fs ."
+def call() {
+    steps.sh "trivy fs ."
 }
+
